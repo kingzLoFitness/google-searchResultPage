@@ -1,0 +1,128 @@
+/* CSS Document */
+* {
+	font-family: sans-serif;
+	border: black solid thin;
+}
+
+
+/* HEADER */
+#header-left-side {
+	float: left;
+	margin-top: 5px;
+	width: 65%;
+}
+
+#header-right-side {
+/* REMINDER NOTE 20161129 - get back to this code for it was the last thing you went through as of the night of the date finished at 11:40PM */	
+	margin-left: 920px;
+}
+					
+header {
+	/* float: right; */
+	/*margin-top: -130px;*/
+	margin-right: 0 auto;
+	background-color: grey;
+	position: fixed;
+	top:0;
+	width: 100%;
+}
+
+section, header nav {
+	background-color: white;
+}
+
+p, header ul li {
+	margin-left: 40px;
+}
+header nav ul {
+	margin-left: 20px;
+}
+
+header section nav p {
+	margin-left: 100px;
+}
+
+header ul {
+/*	border: green solid 2px;
+	display: inline; */
+}
+
+.left-sub-nav {
+	float: left;
+}
+
+.right-sub-nav {
+	float: right;
+	margin-right: 40px;
+}
+
+.clearHeaderNav {
+	clear: both;
+}
+
+/* MAIN */
+#main	{
+/*	border: black solid ;  */
+	text-align: center;
+	padding-top: 20px;
+	height: 1300px;
+	background-color: green;
+	margin-bottom: 100px;
+	margin-top: 120px;
+}
+
+.mainHeader {
+		margin-top: 130px;
+}
+
+li {
+	display: inline;
+}
+
+li a {
+	text-decoration: none;
+}
+
+article {
+	text-align: left;
+	margin-left: 40px;
+	padding-bottom: 20px;
+	width: 60%;
+}
+
+article h1 {
+	margin-left: 40px;
+}
+article h1, article p {
+	margin-bottom: -20px;
+}
+
+#link2ArticleCached {
+	font-size: .75em;
+	margin-top: 20px;
+	margin-bottom: -15px;
+}
+
+/* FOOTER */
+footer {
+	position: fixed;
+	margin: 0 auto;
+	bottom: 0;
+	width: 100%;
+	background-color: grey;
+}
+
+#subFooter { 
+	text-align: center;
+}
+
+.footer-left li, .footer-right li {
+	margin-right: 20px;
+}
+.footer-left {
+	float: left;
+}
+
+.footer-right {
+	float: right;
+}
